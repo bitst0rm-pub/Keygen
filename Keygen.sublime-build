@@ -1,0 +1,15 @@
+{
+    "variants": [
+        {
+            "name": "Keygen DoxyDoxyGen",
+            "cmd": ["python3", "-u", "$file"],
+            "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+            "selector": "source.python"
+        },
+        {
+            "name": "Keygen Sublimerge",
+            "target": "keygen_sublimerge",
+            "selector": "source.python"
+        }
+    ]
+}
